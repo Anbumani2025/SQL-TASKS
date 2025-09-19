@@ -116,7 +116,7 @@ drop table payments;
 
 select count(student_id),course_id from enrollments  group by course_id;
 
--- average price of courses by caregories --
+-- average price of courses by categories --
 
 select avg(price),category  from courses group by category;
 
